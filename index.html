@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>Light and Sound Memory Game!</h1>
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing buttons. You have
+      3 strikes during the game and 15 seconds per guess.
+    </p>
+    <p id="clock">15</p>
+
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="playMyAudio(1)"
+        onmouseup="pauseMyAudio(1)"
+      ></button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="playMyAudio(2)"
+        onmouseup="pauseMyAudio(2)"
+      ></button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="playMyAudio(3)"
+        onmouseup="pauseMyAudio(3)"
+      ></button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="playMyAudio(4)"
+        onmouseup="pauseMyAudio(4)"
+      ></button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="playMyAudio(5)"
+        onmouseup="pauseMyAudio(5)"
+      ></button>
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="playMyAudio(6)"
+        onmouseup="pauseMyAudio(6)"
+      ></button>
+    </div>
+    <audio
+      src="https://cdn.glitch.global/bbdfc5ab-0211-42a0-a569-e0e3e7689d34/49658__sub-d__more-jazz-guitar.wav?v=1648537465760"
+      id="myAudio1"
+    ></audio>
+    <audio
+      src="https://cdn.glitch.global/bbdfc5ab-0211-42a0-a569-e0e3e7689d34/59501__tc630__am2.wav?v=1648537467145"
+      id="myAudio2"
+    ></audio>
+    <audio
+      src="https://cdn.glitch.global/bbdfc5ab-0211-42a0-a569-e0e3e7689d34/559850__migfus20__jazz-background-music-loop.mp3?v=1648537472128"
+      id="myAudio3"
+    ></audio>
+    <audio
+      src="https://cdn.glitch.global/bbdfc5ab-0211-42a0-a569-e0e3e7689d34/571370__szegvari__jazz-piano-and-orchestra-ms.wav?v=1648537477522"
+      id="myAudio4"
+    ></audio>
+    <audio
+      src="https://cdn.glitch.global/bbdfc5ab-0211-42a0-a569-e0e3e7689d34/613393__elzozo__double-bass-upright-jazz-loop.m4a?v=1648537480553"
+      id="myAudio5"
+    ></audio>
+    <audio
+      src="https://cdn.glitch.global/bbdfc5ab-0211-42a0-a569-e0e3e7689d34/615653__pax11__fmaj7-jazzy-120bpm.wav?v=1648537493119"
+      id="myAudio6"
+    ></audio>
+  </body>
+</html>
