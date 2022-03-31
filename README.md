@@ -86,9 +86,9 @@ I’m glad that I decided to implement this additional feature because I learned
      +   "<"meta name="viewport" content="width=device-width, initial-scale=1" />
      +   "<"link rel="icon" href="https://glitch.com/favicon.ico" />
      +   "<"title>Hello world!"<"/title>
-     +   <!-- import the webpage's stylesheet -->
+     +   "<"!-- import the webpage's stylesheet --">"
      +   "<"link rel="stylesheet" href="/style.css" />
-     +   <!-- import the webpage's javascript file -->
+     +   "<"!-- import the webpage's javascript file --">"
      +   "<"script src="/script.js" defer>"<"/script>
      + "<"/head>
 
