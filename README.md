@@ -103,7 +103,7 @@ recording the time the user takes to finish the game as well as having a list to
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://uci.zoom.us/rec/share/x9V0ICtsLjNfXNh4jZkGLzgT2yQc6yE95-pnpn33mITBFHSxS2TxLK3qAbF0he3B.kipjGpFcHZYHEQzc?startTime=1648784281000)
 
 
 ## License
